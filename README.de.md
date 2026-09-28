@@ -32,4 +32,4 @@ Ersetzen Sie echte Namen und Inhalte durch synthetische Beispiele. Entfernen Sie
 
 ## Downloads und Rechte
 
-Veröffentlichte Downloads stehen im Bereich „Releases“. Jeder Eintrag sollte Archiv, SHA-256-Prüfsummen, Versionshinweise sowie deutliche Hinweise auf fehlende Notarisierung und Abhängigkeiten enthalten. Lesen Sie vor der Nutzung die [deutschen Nutzungsrechte](RIGHTS.de.md) und [Drittanbieterhinweise](THIRD_PARTY.de.md).
+Das aktuelle macOS-Release, das Quellcodearchiv und die SHA-256-Prüfsummen finden Sie unter [SRT to Sound 3.5.0](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0). Die App ist ad-hoc signiert und von Apple nicht notarisiert; FFmpeg, Python 3.12 ARM64, Silero-Pakete und Modellgewichte müssen separat installiert werden. Lesen Sie vor der Nutzung die [deutschen Nutzungsrechte](RIGHTS.de.md) und [Drittanbieterhinweise](THIRD_PARTY.de.md).

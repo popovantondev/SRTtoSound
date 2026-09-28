@@ -23,7 +23,7 @@ Localized examples: [Русский интерфейс](docs/screenshots/interfa
 
 ## Downloads
 
-Release downloads belong in the GitHub Releases area, with one release per version. Each release should provide the macOS archive, SHA-256 checksums, release notes, and a clear notice that the app is not notarized and may require a separately installed FFmpeg/Python environment. Verify the archive and signature before publishing. No release download is attached to this source snapshot.
+Download the current macOS release, source archive, and SHA-256 checksums from [SRT to Sound 3.5.0](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0). The app is ad-hoc signed and not notarized; FFmpeg, Python 3.12 ARM64, Silero packages, and model weights must be installed separately. Verify the archive checksum and signature before opening it.
 
 ## Quick start
 
