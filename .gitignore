@@ -1,0 +1,47 @@
+# macOS and editors
+.DS_Store
+._*
+.idea/
+.vscode/
+*.swp
+
+# Local builds and ready applications
+GUI/build/
+.build/
+*.app/
+dist/
+*.dmg
+*.zip
+/legacy/
+/worktrees/
+/releases/*/SRT Voiceover*/
+
+# Local Python environments and model caches
+.venv*/
+__pycache__/
+*.py[cod]
+*.pt
+*.pth
+.cache/
+
+# Runtime state and private input/output material
+.ai-dev/
+Текст для озвучки.txt
+translation-work/
+.srt-voiceover-*/
+*.wav
+*.m4a
+*.aac
+*.mp3
+*.mp4
+*.mkv
+*.report.txt
+*.srt
+!Тест двух голосов.srt
+!Тест цифр и английских слов.srt
+!Проверка разных фраз.ru.srt
+
+# Secrets are not project assets
+.env
+.env.*
+!.env.example

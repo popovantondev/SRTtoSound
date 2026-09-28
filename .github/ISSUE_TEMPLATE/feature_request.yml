@@ -1,0 +1,29 @@
+name: Feature request
+description: Suggest a project improvement without sharing private materials.
+title: "[Feature]: "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Privacy check before submitting:** describe the need with synthetic examples. Do not attach real subtitles, recordings, logs, screenshots with personal data, credentials, or identifying file paths.
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem should this solve?
+      description: Keep examples synthetic and remove personal information.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Privacy review
+      options:
+        - label: I checked that this request contains no personal data, private recordings, real subtitle content, credentials, or identifying paths.
+          required: true
