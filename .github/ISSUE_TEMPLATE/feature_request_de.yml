@@ -1,0 +1,29 @@
+name: Funktionswunsch — Deutsch
+description: Schlagen Sie eine Verbesserung vor, ohne private Inhalte zu teilen.
+title: "[Wunsch] "
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Datenschutz vor dem Absenden:** Beschreiben Sie den Bedarf mit synthetischen Beispielen. Hängen Sie keine echten Untertitel, Aufnahmen, Protokolle, Screenshots mit persönlichen Daten, Zugangsdaten oder identifizierenden Dateipfade an.
+  - type: textarea
+    id: problem
+    attributes:
+      label: Welches Problem soll gelöst werden?
+      description: Verwenden Sie ausschließlich synthetische Beispiele und entfernen Sie persönliche Angaben.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Gewünschtes Verhalten
+    validations:
+      required: true
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutzprüfung
+      options:
+        - label: Ich habe geprüft, dass der Vorschlag keine persönlichen Daten, privaten Aufnahmen, echten Untertitelinhalte, Zugangsdaten oder identifizierenden Pfade enthält.
+          required: true

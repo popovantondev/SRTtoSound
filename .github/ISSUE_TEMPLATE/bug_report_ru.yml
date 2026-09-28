@@ -1,0 +1,65 @@
+name: Сообщить об ошибке — русский
+description: Сообщите о воспроизводимой проблеме в SRT to Sound.
+title: "[Ошибка] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Перед отправкой удалите настоящие имена, текст субтитров, аудио/видео, полные пути, имя пользователя, личные записи словаря и сведения о голосе/модели конкретного компьютера. Вместо этого используйте короткий синтетический пример. Не прикладывайте лекции и полные неочищенные журналы.
+  - type: input
+    id: app-version
+    attributes:
+      label: Версия приложения и build
+      placeholder: "3.5.0 (build 14)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: Версия macOS и чип Mac
+      placeholder: "macOS 15.x, Apple M4"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: На каком этапе возникла проблема?
+      options:
+        - Установка или проверка готовности
+        - Добавление или проверка файлов SRT
+        - Проверка голоса
+        - Озвучивание очереди
+        - Сохранение или замена результата
+        - Другое
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Шаги для повторения
+      description: Используйте вымышленные имена файлов и текст. Если важно, укажите выбранный голос и формат результата.
+      placeholder: "1. Добавить синтетический файл…\n2. Выбрать…\n3. Запустить…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Ожидаемый и фактический результат
+    validations:
+      required: true
+  - type: textarea
+    id: safe-diagnostics
+    attributes:
+      label: Очищенный фрагмент диагностики (необязательно)
+      description: Вставляйте только нужные строки после удаления имени пользователя, домашних путей, субтитров, паролей и другой личной информации.
+      render: text
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Проверка конфиденциальности
+      options:
+        - label: "Я проверил сообщение и вложения: в них нет личных лекций, субтитров, аудио/видео, персональных путей, имени пользователя, паролей или неочищенных журналов."
+          required: true

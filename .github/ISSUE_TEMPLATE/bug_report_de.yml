@@ -1,0 +1,65 @@
+name: Fehlerbericht — Deutsch
+description: Melden Sie ein reproduzierbares Problem in SRT to Sound.
+title: "[Fehler] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Entfernen Sie vor dem Absenden echte Namen, Untertiteltexte, Audio/Video, vollständige Pfade, Benutzernamen, persönliche Wörterbucheinträge und gerätespezifische Stimmen-/Modelldetails. Verwenden Sie stattdessen ein kurzes synthetisches Beispiel. Hängen Sie niemals Vorlesungsdateien oder unbereinigte vollständige Protokolle an.
+  - type: input
+    id: app-version
+    attributes:
+      label: App-Version und Build
+      placeholder: "3.5.0 (Build 14)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS-Version und Mac-Chip
+      placeholder: "macOS 15.x, Apple M4"
+    validations:
+      required: true
+  - type: dropdown
+    id: stage
+    attributes:
+      label: In welchem Schritt trat das Problem auf?
+      options:
+        - Installation oder Bereitschaftsprüfung
+        - SRT-Dateien hinzufügen oder prüfen
+        - Stimme anhören
+        - Warteschlange vertonen
+        - Ausgabe speichern oder ersetzen
+        - Sonstiges
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Schritte zur Wiederholung
+      description: Verwenden Sie synthetische Dateinamen und Texte. Geben Sie bei Bedarf Stimme und Ausgabeformat an.
+      placeholder: "1. Synthetische Datei hinzufügen…\n2. Auswählen…\n3. Starten…"
+    validations:
+      required: true
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Erwartetes und tatsächliches Ergebnis
+    validations:
+      required: true
+  - type: textarea
+    id: safe-diagnostics
+    attributes:
+      label: Bereinigter Diagnoseauszug (optional)
+      description: Nur relevante Zeilen einfügen; Benutzernamen, Home-Verzeichnisse, Untertitel, Zugangsdaten und private Details entfernen.
+      render: text
+    validations:
+      required: false
+  - type: checkboxes
+    id: privacy
+    attributes:
+      label: Datenschutzprüfung
+      options:
+        - label: Ich habe Bericht und Anhänge geprüft. Sie enthalten keine privaten Vorlesungen, Untertitel, Audio-/Videodateien, persönlichen Pfade, Benutzernamen, Zugangsdaten oder unbereinigten Protokolle.
+          required: true
