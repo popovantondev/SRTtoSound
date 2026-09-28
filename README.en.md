@@ -32,4 +32,4 @@ Before filing an issue, replace real names and content with synthetic examples. 
 
 ## Downloads and rights
 
-The Releases area is the download source when releases are published. Each entry should contain the archive, SHA-256 checksums, release notes, and explicit non-notarized/dependency information. Read the [English rights notice](RIGHTS.en.md) and [third-party notices](THIRD_PARTY.en.md) before use.
+Download the current macOS release, source archive, and SHA-256 checksums from [SRT to Sound 3.5.0](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0). The app is ad-hoc signed and not notarized; FFmpeg, Python 3.12 ARM64, Silero packages, and model weights must be installed separately. Read the [English rights notice](RIGHTS.en.md) and [third-party notices](THIRD_PARTY.en.md) before use.
