@@ -8,7 +8,7 @@ Dokumentation auf Deutsch. Weitere Sprachen: [English](README.en.md) · [Рус�
 
 ## Schnellstart
 
-Laden Sie das aktuelle Release 3.5.0 herunter, entpacken Sie das Archiv und lesen Sie vor der Nutzung die Versionshinweise. Befolgen Sie vor der Sprachsynthese die [deutsche Installationsanleitung](docs/INSTALLATION.de.md), um FFmpeg, die separate Python-/Silero-Umgebung und das Modell einzurichten. Fügen Sie anschließend fertige russische Untertiteldateien (`.ru.srt`) oder einen Ordner hinzu. Wählen Sie eine von fünf Silero-Stimmen (Kseniya ist voreingestellt), AAC/M4A oder WAV sowie den Speicherort. Die Quelldatei bleibt unverändert.
+Das aktuelle Release 3.5.0 ist verfügbar. Laden Sie das Archiv herunter, entpacken Sie es und lesen Sie vor der Nutzung die Versionshinweise. Befolgen Sie vor der Sprachsynthese die [deutsche Installationsanleitung](docs/INSTALLATION.de.md), um FFmpeg, die separate Python-/Silero-Umgebung und das Modell einzurichten. Fügen Sie anschließend fertige russische Untertiteldateien (`.ru.srt`) oder einen Ordner hinzu. Wählen Sie eine von fünf Silero-Stimmen (Kseniya ist voreingestellt), AAC/M4A oder WAV sowie den Speicherort. Die Quelldatei bleibt unverändert.
 
 Die Verarbeitung läuft lokal. Siri und macOS-Systemstimmen sind in dieser Version nicht enthalten.
 
