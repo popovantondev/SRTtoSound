@@ -6,7 +6,7 @@ Dokumentation auf Deutsch. Weitere Sprachen: [English](README.en.md) · [Рус�
 
 ## Schnellstart
 
-Sobald ein geprüfter Release verfügbar ist, laden Sie das Archiv herunter, entpacken es und lesen die Versionshinweise. Befolgen Sie vor der Sprachsynthese die [deutsche Installationsanleitung](docs/INSTALLATION.de.md), um FFmpeg, die separate Python-/Silero-Umgebung und das Modell einzurichten. Fügen Sie anschließend fertige russische Untertiteldateien (`.ru.srt`) oder einen Ordner hinzu. Wählen Sie eine von fünf Silero-Stimmen (Kseniya ist voreingestellt), AAC/M4A oder WAV sowie den Speicherort. Die Quelldatei bleibt unverändert.
+Laden Sie das aktuelle Release 3.5.0 herunter, entpacken Sie das Archiv und lesen Sie vor der Nutzung die Versionshinweise. Befolgen Sie vor der Sprachsynthese die [deutsche Installationsanleitung](docs/INSTALLATION.de.md), um FFmpeg, die separate Python-/Silero-Umgebung und das Modell einzurichten. Fügen Sie anschließend fertige russische Untertiteldateien (`.ru.srt`) oder einen Ordner hinzu. Wählen Sie eine von fünf Silero-Stimmen (Kseniya ist voreingestellt), AAC/M4A oder WAV sowie den Speicherort. Die Quelldatei bleibt unverändert.
 
 Die Verarbeitung läuft lokal und verwendet weder ChatGPT noch eine kostenpflichtige API. Siri und macOS-Systemstimmen sind in dieser Version nicht enthalten.
 
@@ -28,7 +28,7 @@ Folgen Sie der [deutschen Bau- und Testanleitung](docs/BUILD.de.md). Dort stehen
 
 ## Fehlerberichte
 
-Ersetzen Sie echte Namen und Inhalte durch synthetische Beispiele. Entfernen Sie persönliche Daten, private Untertitel, Audio/Video, Logs, absolute Pfade, Benutzernamen sowie gerätebezogene Stimmen- und Modelldetails. Verwenden Sie das [deutsche Fehlerformular](.github/ISSUE_TEMPLATE/bug_report_de.yml) oder das [Formular für Funktionswünsche](.github/ISSUE_TEMPLATE/feature_request_de.yml). Beide Vorlagen sind lokalisiert und erinnern an den Datenschutz. Screenshots dürfen nur synthetische Dateien zeigen.
+Ersetzen Sie echte Namen und Inhalte durch synthetische Beispiele. Entfernen Sie persönliche Daten, private Untertitel, Audio/Video, Logs, absolute Pfade, Benutzernamen sowie gerätebezogene Stimmen- und Modelldetails. Verwenden Sie das [deutsche Fehlerformular](https://github.com/popovantondev/SRTtoSound/issues/new?template=bug_report_de.yml) oder das [Formular für Funktionswünsche](https://github.com/popovantondev/SRTtoSound/issues/new?template=feature_request_de.yml). Beide Vorlagen sind lokalisiert und erinnern an den Datenschutz. Screenshots dürfen nur synthetische Dateien zeigen.
 
 ## Downloads und Rechte
 
