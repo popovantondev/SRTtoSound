@@ -1,5 +1,7 @@
 # SRT to Sound 3.5.0 — руководство пользователя и разработчика
 
+[Руководство пользователя](https://popovantondev.github.io/SRTtoSound/Guide-ru.html)
+
 Документация на русском. Другие языки: [English](README.en.md) · [Deutsch](README.de.md) · [обзор проекта](README.md).
 
 ![Очередь SRT to Sound на русском языке](docs/screenshots/interface-ru.png)
