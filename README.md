@@ -1,5 +1,7 @@
 # SRT to Sound
 
+[User guide](https://popovantondev.github.io/SRTtoSound/Guide-en.html)
+
 Apple silicon · macOS 15+ · Version 3.5.0
 
 Offline macOS software that turns Russian subtitle files (`.ru.srt`) into synchronized AAC/M4A or WAV voiceover. Designed for macOS 15+ and Apple silicon. Speech synthesis uses only the locally installed Silero model; five Russian voices are available, with Kseniya selected by default. No Siri, macOS system-voice, network API, translation, or video-muxing feature is included.
