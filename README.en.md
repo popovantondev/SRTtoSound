@@ -6,7 +6,7 @@ English documentation. Other languages: [Deutsch](README.de.md) · [Русски
 
 ## Quick start
 
-When a reviewed release is available, download and extract its archive and read the release notes. Before synthesizing speech, follow the [English installation guide](docs/INSTALLATION.en.md) to install FFmpeg, the separate Python/Silero environment, and the model. Then add final Russian subtitle files (`.ru.srt`) or a folder. Select one of five Silero voices (Kseniya is the default), AAC/M4A or WAV, and an output location. The source SRT remains unchanged.
+Download the current 3.5.0 release archive, extract it, and read the release notes before use. Before synthesizing speech, follow the [English installation guide](docs/INSTALLATION.en.md) to install FFmpeg, the separate Python/Silero environment, and the model. Then add final Russian subtitle files (`.ru.srt`) or a folder. Select one of five Silero voices (Kseniya is the default), AAC/M4A or WAV, and an output location. The source SRT remains unchanged.
 
 The project processes subtitles locally. It has no Siri or macOS system-voice synthesis path.
 
@@ -28,7 +28,7 @@ Follow the [English build and test guide](docs/BUILD.en.md). It explains the saf
 
 ## Reports
 
-Before filing an issue, replace real names and content with synthetic examples. Remove personal information, private subtitles, audio/video, logs, absolute paths, usernames, and machine-specific voice/model details. Use the [English bug-report form](.github/ISSUE_TEMPLATE/bug_report.yml) or [feature-request form](.github/ISSUE_TEMPLATE/feature_request.yml); both have localized alternatives. Screenshots must show only synthetic files.
+Before filing an issue, replace real names and content with synthetic examples. Remove personal information, private subtitles, audio/video, logs, absolute paths, usernames, and machine-specific voice/model details. Use the [English bug-report form](https://github.com/popovantondev/SRTtoSound/issues/new?template=bug_report.yml) or [feature-request form](https://github.com/popovantondev/SRTtoSound/issues/new?template=feature_request.yml); both have localized alternatives. Screenshots must show only synthetic files.
 
 ## Downloads and rights
 
