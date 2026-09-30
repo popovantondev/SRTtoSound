@@ -8,7 +8,7 @@ English documentation. Other languages: [Deutsch](README.de.md) · [Русски
 
 Download the current 3.5.0 release archive, extract it, and read the release notes before use. Before synthesizing speech, follow the [English installation guide](docs/INSTALLATION.en.md) to install FFmpeg, the separate Python/Silero environment, and the model. Then add final Russian subtitle files (`.ru.srt`) or a folder. Select one of five Silero voices (Kseniya is the default), AAC/M4A or WAV, and an output location. The source SRT remains unchanged.
 
-The project runs locally and does not call ChatGPT or a paid API. It has no Siri or macOS system-voice synthesis path.
+The project processes subtitles locally. It has no Siri or macOS system-voice synthesis path.
 
 ### Dependencies and first output
 

@@ -33,7 +33,7 @@ Download the current macOS release, source archive, and SHA-256 checksums from [
 2. Before using speech generation, complete the separate FFmpeg, Python 3.12 ARM64, Silero dependencies, and model setup in the [installation guide](docs/INSTALLATION.en.md). These runtime components and model weights are not bundled with the app. This project restricts Silero use to personal, non-commercial tasks; model weights are not redistributed. See [third-party notices](THIRD_PARTY.en.md) for the disclosed model/license mapping uncertainty.
 3. Open the app, add final `.ru.srt` files or a folder, choose a voice, AAC/M4A or WAV, and an output location, then start the queue.
 
-The app does not modify source SRT files. AAC/M4A is the default output; WAV is also available. Speech preparation runs locally, without ChatGPT or a paid API. See the translated guides for setup details and limitations.
+The app does not modify source SRT files. AAC/M4A is the default output; WAV is also available. Speech preparation runs locally. See the translated guides for setup details and limitations.
 
 ## Development
 
