@@ -10,3 +10,7 @@ updates:
     schedule:
       interval: monthly
     open-pull-requests-limit: 3
+    ignore:
+      # OmegaConf 2.3.1 requires antlr4-python3-runtime==4.9.*.
+      - dependency-name: antlr4-python3-runtime
+        versions: [">=4.10"]
