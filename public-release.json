@@ -1,0 +1,79 @@
+{
+  "name": "SRT to Sound",
+  "version": "3.5.0",
+  "platform": "macOS 15+ · Apple Silicon",
+  "tag": "v3.5.0",
+  "description": {
+    "ru": "Создаёт синхронизированную русскую озвучку из готовых SRT-субтитров в M4A или WAV.",
+    "de": "Erstellt synchronisierte russische Sprachausgabe aus fertigen SRT-Untertiteln als M4A oder WAV.",
+    "en": "Create synchronized Russian narration from finished SRT subtitles as M4A or WAV."
+  },
+  "requirements": {
+    "ru": "Отдельно установите Python 3.12 ARM64, FFmpeg, пакеты Silero и модель v5_5_ru.pt. Они не входят в архив. Приложение не нотарифицировано Apple.",
+    "de": "Python 3.12 ARM64, FFmpeg, Silero-Pakete und Modell v5_5_ru.pt separat installieren; nicht im ZIP enthalten. Keine Apple-Notarisierung.",
+    "en": "Install Python 3.12 ARM64, FFmpeg, Silero packages and v5_5_ru.pt separately; they are not bundled. Not notarized by Apple."
+  },
+  "start": {
+    "ru": "Распакуйте приложение и сначала выполните установку зависимостей по руководству. Добавьте .ru.srt, выберите голос, формат и выходную папку.",
+    "de": "App entpacken und zuerst die Abhängigkeiten nach Anleitung einrichten. .ru.srt hinzufügen, Stimme, Format und Ausgabeordner wählen.",
+    "en": "Extract the app and complete dependency setup in the guide first. Add .ru.srt files and choose voice, format and output folder."
+  },
+  "schema_version": 1,
+  "repo": "SRTtoSound",
+  "source_url": "https://github.com/popovantondev/SRTtoSound",
+  "readmes": {
+    "en": [
+      "README.md",
+      "README.en.md"
+    ],
+    "de": [
+      "README.de.md"
+    ],
+    "ru": [
+      "README.ru.md"
+    ]
+  },
+  "guides": {
+    "ru": "Guide-ru.html",
+    "de": "Guide-de.html",
+    "en": "Guide-en.html"
+  },
+  "help_url": "https://popovantondev.github.io/SRTtoSound/Guide-{lang}.html",
+  "feedback_url": "https://github.com/popovantondev/SRTtoSound/issues/new/choose",
+  "status": "release",
+  "release_url": "https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0",
+  "assets": [
+    {
+      "name": "RELEASE.md",
+      "size": 471,
+      "url": "https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/RELEASE.md"
+    },
+    {
+      "name": "SHA256SUMS",
+      "size": 197,
+      "url": "https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS"
+    },
+    {
+      "name": "SRT-to-Sound-3.5.0-macOS-arm64.zip",
+      "size": 4047207,
+      "url": "https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SRT-to-Sound-3.5.0-macOS-arm64.zip"
+    },
+    {
+      "name": "SRT-to-Sound-3.5.0-source.zip",
+      "size": 2258272,
+      "url": "https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SRT-to-Sound-3.5.0-source.zip"
+    }
+  ],
+  "downloads": [
+    "SRT-to-Sound-3.5.0-macOS-arm64.zip"
+  ],
+  "checksums": [
+    "SHA256SUMS"
+  ],
+  "version_files": [
+    {
+      "path": "VERSION",
+      "pattern": "^\\s*(\\S+)\\s*$"
+    }
+  ]
+}

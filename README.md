@@ -1,6 +1,22 @@
 # SRT to Sound
 
-[User guide](https://popovantondev.github.io/SRTtoSound/Guide-en.html)
+<!-- public-release:start -->
+Create synchronized Russian narration from finished SRT subtitles as M4A or WAV.
+
+**macOS 15+ · Apple Silicon · Release 3.5.0**
+
+**[Download](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0)** · **[User guide](https://popovantondev.github.io/SRTtoSound/Guide-en.html)** · **[Report a problem](https://github.com/popovantondev/SRTtoSound/issues/new/choose)**
+
+**Requirements and limitations:** Install Python 3.12 ARM64, FFmpeg, Silero packages and v5_5_ru.pt separately; they are not bundled. Not notarized by Apple.
+
+**First steps:** Extract the app and complete dependency setup in the guide first. Add .ru.srt files and choose voice, format and output folder.
+
+**Application files:**
+
+- [`SRT-to-Sound-3.5.0-macOS-arm64.zip`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SRT-to-Sound-3.5.0-macOS-arm64.zip)
+
+**Checksums:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
+<!-- public-release:end -->
 
 Apple silicon · macOS 15+ · Version 3.5.0
 
