@@ -1,0 +1,30 @@
+name: Source and build checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: source-checks-${{ github.ref }}
+  cancel-in-progress: true
+jobs:
+  source-build:
+    runs-on: macos-15
+    timeout-minutes: 30
+    env:
+      QT_QPA_PLATFORM: offscreen
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+      - name: Check runtime source syntax
+        run: |
+          python -m py_compile silero_worker.py
+          for source in *.rb; do ruby -c "$source"; done
+      - name: Build application without launching it
+        run: /bin/zsh scripts/build.sh build-ci
