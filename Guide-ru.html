@@ -27,11 +27,27 @@
   background: transparent;
   box-shadow: none;
 }
-</style></head><body><div class="shell"><header class="top"><a class="brand" href="Guide-en.html"><span class="brand-mark"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/app-icon-512.png" alt=""></span><span>SRT to Sound</span></a><nav aria-label="Язык"><a href="Guide-de.html">Deutsch</a><a href="Guide-en.html">English</a><a href="Guide-ru.html" aria-current="page">Русский</a></nav></header><main><section class="hero"><div><p class="kicker">РУКОВОДСТВО &#183; macOS 15+ &#183; Apple Silicon &#183; 3.5.0</p><h1>SRT to Sound</h1><p class="lead">Создавайте локальную озвучку из готовых русских субтитров и сохраняйте отдельный аудиофайл.</p><p class="meta">macOS 15+ &#183; Apple Silicon &#183; 3.5.0</p><a class="button" href="https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0">Выпуск 3.5.0</a></div><div class="brand-mark-large"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/app-icon-512.png" alt=""></div></section><section class="overview">
+.release-summary code{overflow-wrap:anywhere}.release-actions{display:flex;gap:8px;flex-wrap:wrap}.release-link{display:inline-block;padding:9px 13px;border:1px solid #bdd1ed;border-radius:10px;background:#edf4ff;color:#0753ad;font-weight:650;text-decoration:none}.release-link:focus-visible{outline:3px solid #1677ff;outline-offset:3px}
+</style></head><body><div class="shell"><header class="top"><a class="brand" href="Guide-ru.html"><span class="brand-mark"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/app-icon-512.png" alt=""></span><span>SRT to Sound</span></a><nav aria-label="Язык"><a href="Guide-de.html">Deutsch</a><a href="Guide-en.html">English</a><a href="Guide-ru.html" aria-current="page">Русский</a></nav></header><main><section class="hero"><div><p class="kicker">РУКОВОДСТВО &#183; macOS 15+ &#183; Apple Silicon &#183; 3.5.0</p><h1>SRT to Sound</h1><p class="lead">Создавайте локальную озвучку из готовых русских субтитров и сохраняйте отдельный аудиофайл.</p><p class="meta">macOS 15+ &#183; Apple Silicon &#183; 3.5.0</p><a class="button" href="https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0">Выпуск 3.5.0</a></div><div class="brand-mark-large"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/app-icon-512.png" alt=""></div></section>
+<!-- public-release:start -->
+<section class="topic release-summary" aria-label="Первые шаги">
+<p>Создаёт синхронизированную русскую озвучку из готовых SRT-субтитров в M4A или WAV.</p>
+<p><strong>macOS 15+ · Apple Silicon · Выпуск 3.5.0</strong></p>
+<p class="release-actions"><a class="release-link" href="https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0">Скачать</a> <a class="release-link" href="https://popovantondev.github.io/SRTtoSound/Guide-ru.html">Инструкция</a> <a class="release-link" href="https://github.com/popovantondev/SRTtoSound/issues/new/choose">Сообщить об ошибке</a></p>
+<p><strong>Требования и ограничения:</strong> Отдельно установите Python 3.12 ARM64, FFmpeg, пакеты Silero и модель v5_5_ru.pt. Они не входят в архив. Приложение не нотарифицировано Apple.</p>
+<p><strong>Первые шаги:</strong> Распакуйте приложение и сначала выполните установку зависимостей по руководству. Добавьте .ru.srt, выберите голос, формат и выходную папку.</p>
+<h2>Файлы приложения</h2>
+<ul>
+<li><a href="https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SRT-to-Sound-3.5.0-macOS-arm64.zip"><code>SRT-to-Sound-3.5.0-macOS-arm64.zip</code></a></li>
+</ul>
+<p><strong>Контрольные суммы:</strong> <a href="https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS">SHA256SUMS</a></p>
+</section>
+<!-- public-release:end -->
+<section class="overview">
 <p>Документация на русском. Другие языки: <a href="Guide-en.html">English</a> · <a href="Guide-de.html">Deutsch</a> · <a href="https://github.com/popovantondev/SRTtoSound/blob/main/README.md">обзор проекта</a>.</p>
 <p><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/interface-ru.png" alt="Очередь SRT to Sound на русском языке" /></p>
 </section><section class="topic"><h2 id="section">Быстрый запуск</h2>
-<p>Когда появится проверенный выпуск, скачайте и распакуйте архив, прочитайте примечания к версии. Добавьте готовые русские субтитры <code>.ru.srt</code> или папку, выберите один из пяти голосов Silero (по умолчанию Kseniya), AAC/M4A или WAV и место сохранения. Исходный SRT не изменяется.</p>
+<p>Скачайте и распакуйте архив приложения из опубликованного выпуска 3.5.0, прочитайте примечания к версии. Добавьте готовые русские субтитры <code>.ru.srt</code> или папку, выберите один из пяти голосов Silero (по умолчанию Kseniya), AAC/M4A или WAV и место сохранения. Исходный SRT не изменяется.</p>
 <p>Обработка выполняется локально. Siri и синтез системными голосами macOS в эту версию не входят.</p>
 <h3 id="section-1">Зависимости и первая дорожка</h3>
 <p>FFmpeg, отдельное окружение Python 3.12 ARM64 и модель Silero <code>v5_5_ru.pt</code> обязательны и настраиваются отдельно. Они не входят в пакет приложения; архив выпуска содержит список закреплённых зависимостей, но не установленные пакеты и веса модели. Перед первой озвучкой пройдите <a href="https://github.com/popovantondev/SRTtoSound/blob/main/docs/INSTALLATION.md">инструкцию по установке</a>. Во время озвучки программа ничего не скачивает и не устанавливает. Для Silero мы фиксируем строгий режим: только личное некоммерческое использование; веса модели не распространяются. Прочитайте <a href="https://github.com/popovantondev/SRTtoSound/blob/main/THIRD_PARTY.ru.md">уведомление о сторонних компонентах</a>.</p>

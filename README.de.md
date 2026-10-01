@@ -1,6 +1,22 @@
 # SRT to Sound 3.5.0 — Benutzer- und Entwicklerhandbuch
 
-[Benutzerhandbuch](https://popovantondev.github.io/SRTtoSound/Guide-de.html)
+<!-- public-release:start -->
+Erstellt synchronisierte russische Sprachausgabe aus fertigen SRT-Untertiteln als M4A oder WAV.
+
+**macOS 15+ · Apple Silicon · Release 3.5.0**
+
+**[Herunterladen](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0)** · **[Anleitung](https://popovantondev.github.io/SRTtoSound/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/SRTtoSound/issues/new/choose)**
+
+**Voraussetzungen und Grenzen:** Python 3.12 ARM64, FFmpeg, Silero-Pakete und Modell v5_5_ru.pt separat installieren; nicht im ZIP enthalten. Keine Apple-Notarisierung.
+
+**Erste Schritte:** App entpacken und zuerst die Abhängigkeiten nach Anleitung einrichten. .ru.srt hinzufügen, Stimme, Format und Ausgabeordner wählen.
+
+**App-Dateien:**
+
+- [`SRT-to-Sound-3.5.0-macOS-arm64.zip`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SRT-to-Sound-3.5.0-macOS-arm64.zip)
+
+**Prüfsummen:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
+<!-- public-release:end -->
 
 Dokumentation auf Deutsch. Weitere Sprachen: [English](README.en.md) · [Русский](README.ru.md) · [Projektübersicht](README.md).
 
