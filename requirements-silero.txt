@@ -2,7 +2,7 @@
 # macOS ARM64 / Python 3.12.14 environment on 2026-09-27.
 # Re-run these exact pins in a separate user install before claiming support.
 # Model weights are separate; the app requires local v5_5_ru.pt and never downloads it.
-antlr4-python3-runtime==4.9.3
+antlr4-python3-runtime==4.13.2
 cffi==2.0.0
 filelock==3.19.1
 fsspec==2025.10.0
