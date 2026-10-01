@@ -4,7 +4,7 @@
 # Model weights are separate; the app requires local v5_5_ru.pt and never downloads it.
 antlr4-python3-runtime==4.9.3
 cffi==2.0.0
-filelock==3.19.1
+filelock==4.0.5
 fsspec==2025.10.0
 Jinja2==3.1.6
 MarkupSafe==3.0.3
