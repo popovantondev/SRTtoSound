@@ -1,0 +1,32 @@
+{
+  "folder": ".",
+  "shots": {
+    "ru": "docs/screenshots/interface-ru.png",
+    "de": "docs/screenshots/interface-de-dark.png",
+    "en": "docs/screenshots/interface-en.png"
+  },
+  "icon": "presentation-icon.png",
+  "palette": {
+    "accent": "#286aab",
+    "tint": "#e6f2fb",
+    "hero": "#142c48",
+    "hero-end": "#285c87"
+  },
+  "flow": {
+    "ru": [
+      "Открыть SRT",
+      "Синтезировать речь",
+      "Сохранить M4A / WAV"
+    ],
+    "de": [
+      "SRT öffnen",
+      "Sprache erzeugen",
+      "M4A / WAV speichern"
+    ],
+    "en": [
+      "Open SRT",
+      "Synthesize speech",
+      "Save M4A / WAV"
+    ]
+  }
+}
