@@ -2,14 +2,14 @@
 
 Deutsche Fassung · [English](CHANGELOG.en.md) · [Русский](CHANGELOG.md)
 
-## 3.5.0 — Release-Kandidat
+## 3.5.0 — Release
 
-- Separate SRT-to-Sound-Version für macOS 15+ und Apple Silicon; SRT Озвучка 2 und deren Daten bleiben getrennt.
+- Separate SRT-to-Sound-Version für macOS 15+ und Apple Silicon; die frühere App-Generation und deren Daten bleiben getrennt.
 - Ausschließlich Silero: fünf russische Stimmen, Kseniya als Standard. Siri und Systemstimmen sind nicht enthalten.
 - AAC-LC/M4A als Standard, WAV als Alternative; der flüssige Sprechfluss gruppiert Sätze und passt das Tempo an, ohne eine Datei allein wegen eines Tempos über ×1,15 abzulehnen.
 - Oberfläche auf RU/DE/EN; helles, dunkles und systemweites Erscheinungsbild; Prüfung der gesamten Warteschlange; strukturierte Fehler und Berichte.
-- Vorbereitung und Synthese verwenden denselben geprüften Text. Lokale Pfade für Einstellungen, Modell und Umgebung sind von SRT Озвучка 2 getrennt.
-- Der Kandidat ist lokal ad hoc signiert, aber nicht von Apple notariell beglaubigt. FFmpeg, Python 3.12 ARM64, festgelegte Python-Pakete und Silero-Gewichte werden separat eingerichtet.
+- Vorbereitung und Synthese verwenden denselben geprüften Text. Lokale Pfade für Einstellungen, Modell und Umgebung sind von der früheren App-Generation getrennt.
+- Das Release ist lokal ad hoc signiert, aber nicht von Apple notariell beglaubigt. FFmpeg, Python 3.12 ARM64, festgelegte Python-Pakete und Silero-Gewichte werden separat eingerichtet.
 - Synthetische Szenarien und kurze echte Sprachsynthese wurden in einem isolierten QA-Ordner auf einem Mac geprüft. Kompatibilität mit anderen Rechnern wird nicht zugesichert; beachten Sie die Hinweise des konkreten Downloads.
 
 ## 2.0.1 — 25. September 2026
@@ -24,7 +24,7 @@ Deutsche Fassung · [English](CHANGELOG.en.md) · [Русский](CHANGELOG.md)
 - Bei dichter russischer Sprache werden künstliche Pausen innerhalb eines zusammenhängenden Sprachabschnitts auf 40–120 ms verkürzt, statt mit der verbleibenden Zeit verlängert zu werden. So wird das Muster „schnell — lange Pause — wieder schnell“ vermieden.
 - Vor einer echten Videopause bleiben 0,3 Sekunden frei; die übrige Zeit steht zunächst der vorherigen russischen Phrase zur Verfügung. Kurze Sprache lässt die ursprüngliche Pause bestehen; längere nutzt sie, anstatt unnötig zu beschleunigen.
 - Das synthetische Regressionsexemplar `sample.ru.srt` wird vollständig verarbeitet: Nach Nutzung der Pausen sank ein Abschnitt mit ×1,30 auf etwa ×1,17; der höchste verbleibende Abschnitt liegt bei etwa ×1,25. Die Testdatei dauert 120 Sekunden.
-- App-Version 2.0.0, Build 11, Name „SRT Озвучка 2“ und eigene Bundle-ID. Release 1.3.0 und sein Tag bleiben unverändert.
+- App-Version 2.0.0, Build 11, neuer App-Name und eigene Bundle-ID. Release 1.3.0 und sein Tag bleiben unverändert.
 
 ## 1.3.0 — 3. September 2026
 
@@ -56,13 +56,13 @@ Deutsche Fassung · [English](CHANGELOG.en.md) · [Русский](CHANGELOG.md)
 - Starke Beschleunigung wird im Protokoll, in der Warteschlangen-Zeile und in der abschließenden Warnungszahl angezeigt.
 - Vor jeder Siri-Datei prüft die Übergabe zwei verschiedene Texte, damit keine ganze Vorlesung aus einer alten Phrase gesprochen wird. Die Stimmenummer wird nicht fälschlich als automatisch erkannt dargestellt.
 - Ein 180 Sekunden lang stiller Prozess wird beendet; vorhandene Audiodateien bleiben erhalten.
-- Separate App, Bundle-ID und Build 8. Gemeinsamen Starter „Open app.command“ ergänzt.
+- Separate App, Bundle-ID und Build 8.
 - Dokumentation aktualisiert und alte Anleitungen als Archiv markiert. Der Hauptzweig wird auf den aktuellen Code umgestellt; altes Arbeitsprogramm und frühere ZIP-Dateien bleiben erhalten.
 - 51 Ruby-Tests / 235 Assertions und Swift-Tests bestanden. Die Prüfung der installierten Kopie wird separat in `docs/VERIFICATION.md` dokumentiert.
 
 ## 1.2.0 — 3. September 2026
 
-- Separate App „SRT Озвучка 1.2“ mit eigenen Einstellungen; 1.1.0 wird nicht ersetzt.
+- Separate App-Version 1.2 mit eigenen Einstellungen; 1.1.0 wird nicht ersetzt.
 - Speicherortwahl neben jeder SRT oder im Downloads-Ordner wird gespeichert.
 - Ordner samt Unterordnern hinzufügen; endgültige `.ru.srt` auswählen und Zwischenteile, Serviceordner und Duplikate ausschließen.
 - Bei Namenskonflikten: Kopie, Ersetzen, Überspringen oder Warteschlange stoppen. Prüfung vor Synthese und erneut vor dem Speichern.

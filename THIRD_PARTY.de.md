@@ -51,4 +51,4 @@ In der isolierten QA-Umgebung mit Python 3.12.14 für ARM64 wurden genau die unt
 
 ## Umfang der Prüfung
 
-Dies ist eine Prüfung des Quellcodes und des Abhängigkeitspfads für den Kandidaten, keine Rechtsberatung und keine vollständige Stückliste für eine bestimmte lokale Installation. Dieser Hinweis erlaubt nicht, Drittanbieter-Modelle oder Medien in das Projekt aufzunehmen.
+Dies ist eine Prüfung des Quellcodes und des Abhängigkeitspfads für dieses Release, keine Rechtsberatung und keine vollständige Stückliste für eine bestimmte lokale Installation. Dieser Hinweis erlaubt nicht, Drittanbieter-Modelle oder Medien in das Projekt aufzunehmen.

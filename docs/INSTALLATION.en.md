@@ -10,7 +10,7 @@ The app is for macOS 15+ on Apple silicon. The app archive does not contain Pyth
 
 Speech synthesis requires a separate **Python 3.12 ARM64** environment, the pinned packages in `requirements-silero.txt`, and the Silero `v5_5_ru.pt` model. FFmpeg is required for AAC/M4A and timing adjustment. Silero runs locally and provides Kseniya, Xenia, Baya, Aidar, and Eugene. Within this project, Silero use is restricted to personal, non-commercial tasks; do not use it for commercial work. The model is not bundled. The exact mapping of this model file to the upstream license has not been independently confirmed; see [third-party notices](../THIRD_PARTY.en.md) for details and primary-source links.
 
-> For this 3.5.0 candidate, Python 3.12 ARM64, the pinned packages, the local model, and short real synthesis runs were tested in an isolated QA folder on one Mac. A separate Mac and macOS account were not tested. Do not reuse the old Python 3.9 environment or folders belonging to SRT Озвучка 2.
+> For this 3.5.0 release, Python 3.12 ARM64, the pinned packages, the local model, and short real synthesis runs were tested in an isolated QA folder on one Mac. A separate Mac and macOS account were not tested. Do not reuse the old Python 3.9 environment or folders belonging to the earlier app generation.
 
 ## New app data folders
 
@@ -89,7 +89,7 @@ Use **Preview Voice** to test Kseniya, then try a short synthetic `.ru.srt`.
 
 ## Updating, rollback, and security
 
-Before installing an update, quit SRT to Sound, download the release only from the project's Releases page, and verify its archive against the published SHA-256 checksum. Extract it and keep the previous app until the new copy has passed a short test. App names include the version, so you can place the updated app beside the earlier SRT to Sound release instead of overwriting it. SRT Озвучка 2 remains separate.
+Before installing an update, quit SRT to Sound, download the release only from the project's Releases page, and verify its archive against the published SHA-256 checksum. Extract it and keep the previous app until the new copy has passed a short test. App names include the version, so you can place the updated app beside the earlier SRT to Sound release instead of overwriting it. The earlier app generation remains separate.
 
 To roll back, quit the newer copy and open the earlier SRT to Sound app. SRT to Sound 3.5.x versions use the same `~/Library/Application Support/SRTtoSound` data folder; rollback does not restore older settings automatically. Do not delete that folder or the separate Logs/Caches folders as part of an app update. Removing an app bundle does not remove its data folders.
 

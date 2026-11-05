@@ -1,6 +1,4 @@
 # Exact allowlist for a public source snapshot. One tracked file per line.
-# Keep internal release plans, MegaProg data, legacy Siri workflows, user
-# dictionaries, generated outputs, and any lecture-derived material excluded.
 PUBLIC_EXPORT_FILES.txt
 .github/ISSUE_TEMPLATE/bug_report.yml
 .github/ISSUE_TEMPLATE/bug_report_de.yml
@@ -10,6 +8,11 @@ PUBLIC_EXPORT_FILES.txt
 .github/ISSUE_TEMPLATE/feature_request_de.yml
 .github/ISSUE_TEMPLATE/feature_request_ru.yml
 .gitignore
+assets/kit/KIT_VERSION
+assets/kit/kit-theme.js
+assets/kit/kit.css
+assets/kit/kit.js
+assets/kit/programs.js
 CHANGELOG.md
 CHANGELOG.de.md
 CHANGELOG.en.md
@@ -17,7 +20,6 @@ GUI/Assets/SRTVoiceover.icns
 GUI/Info.plist
 GUI/QueueSupport.swift
 GUI/main.swift
-README.de.md
 README.en.md
 README.md
 README.ru.md

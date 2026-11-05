@@ -10,7 +10,7 @@ Die App ist für macOS 15+ auf Apple Silicon vorgesehen. Das App-Archiv enthält
 
 Für die Sprachsynthese benötigen Sie eine separate **Python-3.12-ARM64**-Umgebung, die in `requirements-silero.txt` festgelegten Pakete und das Silero-Modell `v5_5_ru.pt`. Für AAC/M4A und die Zeitanpassung ist FFmpeg erforderlich. Silero läuft lokal und unterstützt Kseniya, Xenia, Baya, Aidar und Eugene. In diesem Projekt ist die Nutzung von Silero strikt auf private, nichtkommerzielle Zwecke beschränkt; eine kommerzielle Nutzung ist ausgeschlossen. Das Modell ist nicht enthalten. Die genaue Zuordnung dieser Modelldatei zur Upstream-Lizenz wurde nicht unabhängig bestätigt; Einzelheiten und Primärquellen finden Sie in den [Drittanbieterhinweisen](../THIRD_PARTY.de.md).
 
-> Für diesen Kandidaten 3.5.0 wurden Python 3.12 ARM64, die festgelegten Pakete, das lokale Modell und kurze echte Synthesen in einem isolierten QA-Ordner auf einem Mac geprüft. Ein separater Mac und ein separates macOS-Benutzerkonto wurden nicht getestet. Verwenden Sie weder die alte Python-3.9-Umgebung noch Ordner von SRT Озвучка 2 weiter.
+> Für dieses Release 3.5.0 wurden Python 3.12 ARM64, die festgelegten Pakete, das lokale Modell und kurze echte Synthesen in einem isolierten QA-Ordner auf einem Mac geprüft. Ein separater Mac und ein separates macOS-Benutzerkonto wurden nicht getestet. Verwenden Sie weder die alte Python-3.9-Umgebung noch Ordner der früheren App-Generation weiter.
 
 ## Datenordner der neuen App
 
@@ -89,7 +89,7 @@ Testen Sie Kseniya mit **Stimme anhören** und probieren Sie danach eine kurze s
 
 ## Aktualisierung, Rückkehr und Sicherheit
 
-Beenden Sie SRT to Sound vor einem Update. Laden Sie den Release ausschließlich von der Projektseite „Releases“ herunter und vergleichen Sie das Archiv mit der veröffentlichten SHA-256-Prüfsumme. Entpacken Sie es und behalten Sie die bisherige App, bis die neue Kopie einen kurzen Test bestanden hat. Die App-Namen enthalten die Versionsnummer; legen Sie die aktualisierte App daher neben die frühere SRT-to-Sound-Version, statt sie zu überschreiben. SRT Озвучка 2 bleibt getrennt.
+Beenden Sie SRT to Sound vor einem Update. Laden Sie den Release ausschließlich von der Projektseite „Releases“ herunter und vergleichen Sie das Archiv mit der veröffentlichten SHA-256-Prüfsumme. Entpacken Sie es und behalten Sie die bisherige App, bis die neue Kopie einen kurzen Test bestanden hat. Die App-Namen enthalten die Versionsnummer; legen Sie die aktualisierte App daher neben die frühere SRT-to-Sound-Version, statt sie zu überschreiben. Die frühere App-Generation bleibt getrennt.
 
 Für eine Rückkehr beenden Sie die neuere Kopie und öffnen die frühere SRT-to-Sound-App. SRT-to-Sound-Versionen 3.5.x verwenden denselben Datenordner `~/Library/Application Support/SRTtoSound`; eine Rückkehr stellt frühere Einstellungen nicht automatisch wieder her. Löschen Sie diesen Ordner und die getrennten Logs-/Caches-Ordner nicht beim App-Update. Beim Löschen des App-Bundles werden die Datenordner nicht entfernt.
 

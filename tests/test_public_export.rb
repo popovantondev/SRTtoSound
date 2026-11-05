@@ -54,7 +54,7 @@ class PublicExportTest < Minitest::Test
   def test_required_public_docs_and_build_inputs_are_included
     paths = public_files
     %w[
-      README.md README.en.md README.de.md README.ru.md RIGHTS.md THIRD_PARTY.md .gitignore
+      README.md README.en.md README.ru.md RIGHTS.md THIRD_PARTY.md .gitignore
       CHANGELOG.md VERSION requirements-silero.txt GUI/main.swift
       GUI/QueueSupport.swift GUI/Assets/SRTVoiceover.icns scripts/build.sh
       scripts/test.sh srt_gui_job.rb srt_voiceover.rb speech_normalizer.rb
@@ -64,7 +64,7 @@ class PublicExportTest < Minitest::Test
   def test_public_documentation_is_available_in_all_three_languages
     paths = public_files
     %w[
-      README.en.md README.de.md README.ru.md
+      README.md README.en.md README.ru.md
       docs/INSTALLATION.en.md docs/INSTALLATION.de.md docs/INSTALLATION.md
       docs/BUILD.en.md docs/BUILD.de.md docs/BUILD.md
       CHANGELOG.en.md CHANGELOG.de.md CHANGELOG.md
@@ -81,9 +81,8 @@ class PublicExportTest < Minitest::Test
 
   def test_each_language_guide_embeds_its_matching_interface_screenshot
     localized_guides = {
-      "README.md" => "interface-en.png",
+      "README.md" => "interface-de-dark.png",
       "README.en.md" => "interface-en.png",
-      "README.de.md" => "interface-de-dark.png",
       "README.ru.md" => "interface-ru.png",
       "docs/INSTALLATION.en.md" => "interface-en.png",
       "docs/INSTALLATION.de.md" => "interface-de-dark.png",

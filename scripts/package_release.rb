@@ -69,7 +69,7 @@ Dir.mktmpdir(".srt-to-sound-release-", parent) do |temporary|
   tracked = checked("git", "ls-tree", "-r", "--name-only", tag).lines.map(&:chomp)
   missing = public_files - tracked
   raise "Allowlist entries are not present in #{tag}: #{missing.join(', ')}" unless missing.empty?
-  required_public = %w[PUBLIC_EXPORT_FILES.txt README.md README.en.md README.de.md README.ru.md RIGHTS.md THIRD_PARTY.md]
+  required_public = %w[PUBLIC_EXPORT_FILES.txt README.md README.en.md README.ru.md RIGHTS.md THIRD_PARTY.md]
   raise "Public allowlist is missing required files: #{(required_public - public_files).join(', ')}" unless (required_public - public_files).empty?
   checked("git", "archive", "--format=tar", "--output=#{source_tar}", tag, "--", *public_files)
   checked("/usr/bin/tar", "-xf", source_tar, "-C", payload)

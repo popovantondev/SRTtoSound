@@ -2,7 +2,7 @@
 
 English version · [Deutsch](THIRD_PARTY.de.md) · [Русский](THIRD_PARTY.ru.md)
 
-This inventory is specific to SRT to Sound. It is not a license for this project and does not replace the terms supplied by third-party authors. The application release candidate does not bundle FFmpeg, Python packages, Silero, or model weights.
+This inventory is specific to SRT to Sound. It is not a license for this project and does not replace the terms supplied by third-party authors. The application release does not bundle FFmpeg, Python packages, Silero, or model weights.
 
 ## Application and Apple components
 
@@ -12,7 +12,7 @@ The project icon assets and scripts are project materials. This repository grant
 
 ## FFmpeg
 
-The app invokes an executable installed separately by the user. No FFmpeg executable or library is included in the repository or candidate archive. FFmpeg states that most of its code is LGPL 2.1 or later, while enabling optional GPL components changes the applicable license to GPL 2 or later. The license of a particular user-installed build depends on its configuration and included components. See [FFmpeg legal considerations](https://ffmpeg.org/legal.html) and [FFmpeg license details](https://ffmpeg.org/doxygen/trunk/md_LICENSE.html).
+The app invokes an executable installed separately by the user. No FFmpeg executable or library is included in the repository or release archive. FFmpeg states that most of its code is LGPL 2.1 or later, while enabling optional GPL components changes the applicable license to GPL 2 or later. The license of a particular user-installed build depends on its configuration and included components. See [FFmpeg legal considerations](https://ffmpeg.org/legal.html) and [FFmpeg license details](https://ffmpeg.org/doxygen/trunk/md_LICENSE.html).
 
 ## Silero and model weights
 
@@ -51,4 +51,4 @@ The isolated Python 3.12.14 ARM64 QA environment installed these exact runtime p
 
 ## Audit scope
 
-This is a source and dependency-path audit for the candidate, not a legal opinion or a full bill of materials for a specific locally installed environment. No third-party model or media asset is authorized for inclusion by this notice.
+This is a source and dependency-path audit for this release, not a legal opinion or a full bill of materials for a specific locally installed environment. No third-party model or media asset is authorized for inclusion by this notice.

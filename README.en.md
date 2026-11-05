@@ -18,7 +18,7 @@ Create synchronized Russian narration from finished SRT subtitles as M4A or WAV.
 **Checksums:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
 <!-- public-release:end -->
 
-English documentation. Other languages: [Deutsch](README.de.md) · [Русский](README.ru.md) · [Repository overview](README.md).
+English documentation. Other languages: [Deutsch](README.md) · [Русский](README.ru.md).
 
 ![SRT to Sound queue in English](docs/screenshots/interface-en.png)
 

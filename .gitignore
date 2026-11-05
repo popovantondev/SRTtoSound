@@ -45,3 +45,12 @@ translation-work/
 .env
 .env.*
 !.env.example
+
+# Internal tooling files stay out of the public repository
+.autopilot/
+AGENTS.md
+CLAUDE.md
+CONTEXT.md
+docs/adr/
+docs/architecture.md
+

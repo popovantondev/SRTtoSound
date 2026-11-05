@@ -2,14 +2,14 @@
 
 English version · [Deutsch](CHANGELOG.de.md) · [Русский](CHANGELOG.md)
 
-## 3.5.0 — release candidate
+## 3.5.0 — release
 
-- Separate SRT to Sound version for macOS 15+ and Apple silicon; SRT Озвучка 2 and its data remain separate.
+- Separate SRT to Sound version for macOS 15+ and Apple silicon; the earlier app generation and its data remain separate.
 - Silero only: five Russian voices, with Kseniya as the default. Siri and system voices are not included.
 - AAC-LC/M4A by default, with WAV as an alternative; smooth pacing groups sentences and adjusts timing without rejecting a file solely because tempo exceeds ×1.15.
 - RU/DE/EN interface; light, dark, and system themes; whole-queue preflight; structured errors and reports.
-- Preparation and synthesis use the same checked text; local settings, model, and environment paths are isolated from SRT Озвучка 2.
-- The candidate is ad-hoc signed, not notarized by Apple. FFmpeg, Python 3.12 ARM64, pinned Python packages, and Silero weights are installed separately.
+- Preparation and synthesis use the same checked text; local settings, model, and environment paths are isolated from the earlier app generation.
+- The release is ad-hoc signed, not notarized by Apple. FFmpeg, Python 3.12 ARM64, pinned Python packages, and Silero weights are installed separately.
 - Synthetic scenarios and short real synthesis were checked in an isolated QA folder on one Mac. Compatibility with other computers is not claimed; consult the notes for the exact downloaded release.
 
 ## 2.0.1 — 25 September 2026
@@ -24,7 +24,7 @@ English version · [Deutsch](CHANGELOG.de.md) · [Русский](CHANGELOG.md)
 - When Russian speech is dense, synthetic pauses inside an island are shortened to 40–120 ms instead of being expanded to fill leftover time. This avoids the pattern “fast — long pause — fast again.”
 - Before a real video pause, 0.3 seconds are reserved; the remaining interval is first available to the previous Russian phrase. Short speech keeps the original pause; longer speech uses it instead of adding unnecessary acceleration.
 - The regression sample with the synthetic name `sample.ru.srt` now completes: using pauses lowered one ×1.30 section to about ×1.17; the highest remaining section is about ×1.25. Test output duration is 120 seconds.
-- App version 2.0.0, build 11, app name “SRT Озвучка 2,” and a separate bundle ID. Release 1.3.0 and its tag are unchanged.
+- App version 2.0.0, build 11, a new app name, and a separate bundle ID. Release 1.3.0 and its tag are unchanged.
 
 ## 1.3.0 — 3 September 2026
 
@@ -56,13 +56,13 @@ English version · [Deutsch](CHANGELOG.de.md) · [Русский](CHANGELOG.md)
 - Strong acceleration is shown in the log, queue row, and final warning count.
 - Siri text handoff checks two different texts before each file to avoid voicing a whole lecture from a stale phrase. The voice number is not represented as automatically detected.
 - A process silent for 180 seconds is stopped; existing audio files are preserved.
-- Separate app, bundle ID, and build 8. Added a shared “Open app.command” launcher.
+- Separate app, bundle ID, and build 8.
 - Documentation refreshed; old instructions marked as archived. The main branch moves to current code while preserving the old working bundle and previous ZIPs.
 - 51 Ruby tests / 235 assertions and Swift tests passed. Verification of the installed copy is recorded separately in `docs/VERIFICATION.md`.
 
 ## 1.2.0 — 3 September 2026
 
-- Separate “SRT Озвучка 1.2” app with its own settings; 1.1.0 is not replaced.
+- Separate app version 1.2 with its own settings; 1.1.0 is not replaced.
 - Remembered destination choice: next to each SRT or Downloads.
 - Add folders including subfolders; select final `.ru.srt` files and exclude intermediate parts, service folders, and duplicates.
 - Name-conflict dialog offers copy, replace, skip, or stop queue. Check before synthesis and again before saving.

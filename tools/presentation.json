@@ -6,9 +6,17 @@
     "en": "docs/screenshots/interface-en.png"
   },
   "icon": "presentation-icon.png",
+  "stack": "Ruby · Swift",
   "palette": {
     "accent": "#286aab",
     "tint": "#e6f2fb",
+    "hero": "#142c48",
+    "hero-end": "#285c87"
+  },
+  "palette_dark": {
+    "accent": "#70b4ee",
+    "accent-ink": "#06223c",
+    "tint": "#10304a",
     "hero": "#142c48",
     "hero-end": "#285c87"
   },
@@ -28,5 +36,187 @@
       "Synthesize speech",
       "Save M4A / WAV"
     ]
+  },
+  "bento": {
+    "de": {
+      "inst_text": "Die Schritte aus der Installationsanleitung, im Terminal.",
+      "term": [
+        [
+          "ps",
+          "$ brew install ffmpeg"
+        ],
+        [
+          "ps",
+          "$ brew install python@3.12"
+        ],
+        [
+          "dim",
+          "# PYTHON=/opt/homebrew/bin/python3.12 · APP_DATA=~/Library/Application Support/SRTtoSound"
+        ],
+        [
+          "ps",
+          "$ \"$PYTHON\" -m venv \"$APP_DATA/.venv-silero-py312\""
+        ],
+        [
+          "ps",
+          "$ \"$APP_DATA/.venv-silero-py312/bin/python\" -m pip install -r \"$REQUIREMENTS\""
+        ],
+        [
+          "dim",
+          "# Modell v5_5_ru.pt manuell laden, danach die Prüfsumme vergleichen:"
+        ],
+        [
+          "ps",
+          "$ shasum -a 256 \"$APP_DATA/models/v5_5_ru.pt\""
+        ],
+        [
+          "ok",
+          "→ In der App „Installation prüfen“, dann „Stimme anhören“"
+        ]
+      ],
+      "tile": {
+        "title": "Läuft lokal",
+        "text": "Die Vertonung läuft offline mit dem lokal installierten Silero-Modell. Während der Vertonung lädt die App nichts herunter.",
+        "live": "Lokal · offline"
+      },
+      "features": [
+        "Fünf russische Silero-Stimmen",
+        "AAC/M4A oder WAV",
+        "Modus „Flüssig · ganze Sätze“",
+        "Vorprüfung der ganzen Warteschlange",
+        "Bericht je Zeile",
+        "Eigenes Aussprachewörterbuch",
+        "Quell-SRT bleibt unverändert",
+        "Oberfläche DE · EN · RU",
+        "Helles und dunkles Design"
+      ],
+      "checks": [
+        "Automatische Prüfungen auf GitHub Actions (macOS 15): Syntaxprüfung und App-Build",
+        "Ruby- und Swift-Tests lokal mit scripts/test.sh",
+        "SHA-256-Prüfsummen (SHA256SUMS) im Release",
+        "Version {v} mit Änderungsprotokoll",
+        "Kurze echte Synthesen auf einem Mac geprüft (laut Installationsanleitung)"
+      ]
+    },
+    "en": {
+      "inst_text": "The steps from the installation guide, in Terminal.",
+      "term": [
+        [
+          "ps",
+          "$ brew install ffmpeg"
+        ],
+        [
+          "ps",
+          "$ brew install python@3.12"
+        ],
+        [
+          "dim",
+          "# PYTHON=/opt/homebrew/bin/python3.12 · APP_DATA=~/Library/Application Support/SRTtoSound"
+        ],
+        [
+          "ps",
+          "$ \"$PYTHON\" -m venv \"$APP_DATA/.venv-silero-py312\""
+        ],
+        [
+          "ps",
+          "$ \"$APP_DATA/.venv-silero-py312/bin/python\" -m pip install -r \"$REQUIREMENTS\""
+        ],
+        [
+          "dim",
+          "# Download the model v5_5_ru.pt manually, then compare its checksum:"
+        ],
+        [
+          "ps",
+          "$ shasum -a 256 \"$APP_DATA/models/v5_5_ru.pt\""
+        ],
+        [
+          "ok",
+          "→ In the app: “Check setup”, then “Preview Voice”"
+        ]
+      ],
+      "tile": {
+        "title": "Runs locally",
+        "text": "Narration runs offline with the locally installed Silero model. The app downloads nothing while it generates speech.",
+        "live": "Local · offline"
+      },
+      "features": [
+        "Five Russian Silero voices",
+        "AAC/M4A or WAV",
+        "Mode “Smooth · complete sentences”",
+        "Pre-check of the whole queue",
+        "Report for every line",
+        "Your own pronunciation dictionary",
+        "Source SRT stays unchanged",
+        "Interface DE · EN · RU",
+        "Light and dark appearance"
+      ],
+      "checks": [
+        "Automatic checks on GitHub Actions (macOS 15): syntax check and app build",
+        "Ruby and Swift tests run locally with scripts/test.sh",
+        "SHA-256 checksums (SHA256SUMS) in the release",
+        "Version {v} with changelog",
+        "Short real syntheses tested on one Mac (per the installation guide)"
+      ]
+    },
+    "ru": {
+      "inst_text": "Шаги из инструкции по установке, в Терминале.",
+      "term": [
+        [
+          "ps",
+          "$ brew install ffmpeg"
+        ],
+        [
+          "ps",
+          "$ brew install python@3.12"
+        ],
+        [
+          "dim",
+          "# PYTHON=/opt/homebrew/bin/python3.12 · APP_DATA=~/Library/Application Support/SRTtoSound"
+        ],
+        [
+          "ps",
+          "$ \"$PYTHON\" -m venv \"$APP_DATA/.venv-silero-py312\""
+        ],
+        [
+          "ps",
+          "$ \"$APP_DATA/.venv-silero-py312/bin/python\" -m pip install -r \"$REQUIREMENTS\""
+        ],
+        [
+          "dim",
+          "# Модель v5_5_ru.pt скачать вручную, затем сверить контрольную сумму:"
+        ],
+        [
+          "ps",
+          "$ shasum -a 256 \"$APP_DATA/models/v5_5_ru.pt\""
+        ],
+        [
+          "ok",
+          "→ В приложении: «Проверка установки», затем «Прослушать голос»"
+        ]
+      ],
+      "tile": {
+        "title": "Работает локально",
+        "text": "Озвучка идёт офлайн с локально установленной моделью Silero. Во время озвучки приложение ничего не загружает.",
+        "live": "Локально · офлайн"
+      },
+      "features": [
+        "Пять русских голосов Silero",
+        "AAC/M4A или WAV",
+        "Режим «Плавно · цельные предложения»",
+        "Предпроверка всей очереди",
+        "Отчёт по каждой строке",
+        "Свой словарь произношения",
+        "Исходный SRT не меняется",
+        "Интерфейс DE · EN · RU",
+        "Светлая и тёмная тема"
+      ],
+      "checks": [
+        "Автоматические проверки в GitHub Actions (macOS 15): проверка синтаксиса и сборка приложения",
+        "Тесты Ruby и Swift запускаются локально через scripts/test.sh",
+        "Контрольные суммы SHA-256 (SHA256SUMS) в релизе",
+        "Версия {v} и журнал изменений",
+        "Короткие реальные озвучки проверены на одном Mac (по инструкции по установке)"
+      ]
+    }
   }
 }

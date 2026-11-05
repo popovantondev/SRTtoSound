@@ -1,65 +1,53 @@
-# SRT to Sound
+# SRT to Sound 3.5.0 — Benutzer- und Entwicklerhandbuch
 
 <!-- public-release:start -->
-Create synchronized Russian narration from finished SRT subtitles as M4A or WAV.
+Erstellt synchronisierte russische Sprachausgabe aus fertigen SRT-Untertiteln als M4A oder WAV.
 
 **macOS 15+ · Apple Silicon · Release 3.5.0**
 
-**[Download](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0)** · **[User guide](https://popovantondev.github.io/SRTtoSound/Guide-en.html)** · **[Report a problem](https://github.com/popovantondev/SRTtoSound/issues/new/choose)**
+**[Herunterladen](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0)** · **[Anleitung](https://popovantondev.github.io/SRTtoSound/Guide-de.html)** · **[Fehler melden](https://github.com/popovantondev/SRTtoSound/issues/new/choose)**
 
-**Requirements and limitations:** Install Python 3.12 ARM64, FFmpeg, Silero packages and v5_5_ru.pt separately; they are not bundled. Not notarized by Apple.
+**Voraussetzungen und Grenzen:** Python 3.12 ARM64, FFmpeg, Silero-Pakete und Modell v5_5_ru.pt separat installieren; nicht im ZIP enthalten. Keine Apple-Notarisierung.
 
-**First steps:** Extract the app and complete dependency setup in the guide first. Add .ru.srt files and choose voice, format and output folder.
+**Erste Schritte:** App entpacken und zuerst die Abhängigkeiten nach Anleitung einrichten. .ru.srt hinzufügen, Stimme, Format und Ausgabeordner wählen.
 
-**Application files:**
+**App-Dateien:**
 
 - [`SRT-to-Sound-3.5.0-macOS-arm64.zip`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SRT-to-Sound-3.5.0-macOS-arm64.zip)
 
-**Checksums:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
+**Prüfsummen:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
 <!-- public-release:end -->
 
-Apple silicon · macOS 15+ · Version 3.5.0
+Dokumentation auf Deutsch. Weitere Sprachen: [English](README.en.md) · [Русский](README.ru.md).
 
-Offline macOS software that turns Russian subtitle files (`.ru.srt`) into synchronized AAC/M4A or WAV voiceover. Designed for macOS 15+ and Apple silicon. Speech synthesis uses only the locally installed Silero model; five Russian voices are available, with Kseniya selected by default. No Siri, macOS system-voice, network API, translation, or video-muxing feature is included.
+![SRT-to-Sound-Warteschlange auf Deutsch](docs/screenshots/interface-de-dark.png)
 
-## Documentation
+## Schnellstart
 
-- [English](README.en.md) · [Deutsch](README.de.md) · [Русский](README.ru.md)
-- Installation: [English](docs/INSTALLATION.en.md) · [Deutsch](docs/INSTALLATION.de.md) · [Русский](docs/INSTALLATION.md)
-- Developer build guide: [English](docs/BUILD.en.md) · [Deutsch](docs/BUILD.de.md) · [Русский](docs/BUILD.md)
-- Changelog: [English](CHANGELOG.en.md) · [Deutsch](CHANGELOG.de.md) · [Русский](CHANGELOG.md)
-- Third-party notices: [English](THIRD_PARTY.en.md) · [Deutsch](THIRD_PARTY.de.md) · [Русский](THIRD_PARTY.ru.md)
-- Rights: [English](RIGHTS.en.md) · [Deutsch](RIGHTS.de.md) · [Русский](RIGHTS.ru.md)
+Das aktuelle Release 3.5.0 ist verfügbar. Laden Sie das Archiv herunter, entpacken Sie es und lesen Sie vor der Nutzung die Versionshinweise. Befolgen Sie vor der Sprachsynthese die [deutsche Installationsanleitung](docs/INSTALLATION.de.md), um FFmpeg, die separate Python-/Silero-Umgebung und das Modell einzurichten. Fügen Sie anschließend fertige russische Untertiteldateien (`.ru.srt`) oder einen Ordner hinzu. Wählen Sie eine von fünf Silero-Stimmen (Kseniya ist voreingestellt), AAC/M4A oder WAV sowie den Speicherort. Die Quelldatei bleibt unverändert.
 
-## Screenshots
+Die Verarbeitung läuft lokal. Siri und macOS-Systemstimmen sind in dieser Version nicht enthalten.
 
-The screenshots use synthetic queue entries only; no real lecture, audio, account, filesystem path, or personal voice/model setting is shown. Each translated guide embeds the screenshot matching its interface language.
+### Abhängigkeiten und erste Audiospur
 
-![SRT to Sound main window, English interface](docs/screenshots/interface-en.png)
+FFmpeg, eine separate Python-3.12-ARM64-Umgebung und das Silero-Modell `v5_5_ru.pt` sind erforderlich und müssen separat eingerichtet werden. Sie sind nicht im App-Bundle enthalten. Das Release-Archiv enthält die Liste der festgelegten Abhängigkeiten, jedoch nicht die installierten Pakete oder Modellgewichte. Während der Vertonung lädt oder installiert die App nichts. Für Silero gilt in diesem Projekt strikt: nur private, nichtkommerzielle Nutzung; Modellgewichte werden nicht weitergegeben. Lesen Sie vor der Nutzung die [Drittanbieterhinweise](THIRD_PARTY.de.md).
 
-Localized examples: [Русский интерфейс](docs/screenshots/interface-ru.png) · [Deutsche Oberfläche im dunklen Modus](docs/screenshots/interface-de-dark.png)
+Voraussetzung sind macOS 15+ und Apple Silicon. Releases sind nicht notarisiert; macOS kann eine Sicherheitswarnung anzeigen. Prüfen Sie vor dem Öffnen die veröffentlichte SHA-256-Prüfsumme. Umgehen Sie Sicherheitsabfragen nur, wenn Sie dem verifizierten Release vertrauen.
 
-## Downloads
+## Dokumentation für Benutzer
 
-Download the current macOS release, source archive, and SHA-256 checksums from [SRT to Sound 3.5.0](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0). The app is ad-hoc signed and not notarized; FFmpeg, Python 3.12 ARM64, Silero packages, and model weights must be installed separately. Verify the archive checksum and signature before opening it.
+- [Installationsanleitung](docs/INSTALLATION.de.md)
+- [Änderungsprotokoll](CHANGELOG.de.md)
+- [Hinweise zu Drittkomponenten und Modellbedingungen](THIRD_PARTY.de.md)
 
-## Quick start
+## Dokumentation für Entwickler
 
-1. Download and extract a reviewed release archive from the Releases area; read its release notes.
-2. Before using speech generation, complete the separate FFmpeg, Python 3.12 ARM64, Silero dependencies, and model setup in the [installation guide](docs/INSTALLATION.en.md). These runtime components and model weights are not bundled with the app. This project restricts Silero use to personal, non-commercial tasks; model weights are not redistributed. See [third-party notices](THIRD_PARTY.en.md) for the disclosed model/license mapping uncertainty.
-3. Open the app, add final `.ru.srt` files or a folder, choose a voice, AAC/M4A or WAV, and an output location, then start the queue.
+Folgen Sie der [deutschen Bau- und Testanleitung](docs/BUILD.de.md). Dort stehen die Testbefehle, der sichere Ausgabeordner und die Grenzen der Release-Paketierung.
 
-The app does not modify source SRT files. AAC/M4A is the default output; WAV is also available. Speech preparation runs locally. See the translated guides for setup details and limitations.
+## Fehlerberichte
 
-## Development
+Ersetzen Sie echte Namen und Inhalte durch synthetische Beispiele. Entfernen Sie persönliche Daten, private Untertitel, Audio/Video, Logs, absolute Pfade, Benutzernamen sowie gerätebezogene Stimmen- und Modelldetails. Verwenden Sie das [deutsche Fehlerformular](https://github.com/popovantondev/SRTtoSound/issues/new?template=bug_report_de.yml) oder das [Formular für Funktionswünsche](https://github.com/popovantondev/SRTtoSound/issues/new?template=feature_request_de.yml). Beide Vorlagen sind lokalisiert und erinnern an den Datenschutz. Screenshots dürfen nur synthetische Dateien zeigen.
 
-```sh
-./scripts/test.sh
-./scripts/build.sh
-```
+## Downloads und Rechte
 
-Build in an isolated development copy. The translated guides include user and developer instructions. Run `./scripts/test.sh` for the test suite and `./scripts/build.sh` for a local build.
-
-## Rights
-
-This repository grants source viewing only. The only permission granted for the application binary is personal use of an unmodified copy. No open-source license or permission to modify, redistribute, sublicense, or commercially use project materials is granted. See [RIGHTS.en.md](RIGHTS.en.md); third-party components retain their own terms.
+Das aktuelle macOS-Release, das Quellcodearchiv und die SHA-256-Prüfsummen finden Sie unter [SRT to Sound 3.5.0](https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0). Die App ist ad-hoc signiert und von Apple nicht notarisiert; FFmpeg, Python 3.12 ARM64, Silero-Pakete und Modellgewichte müssen separat installiert werden. Lesen Sie vor der Nutzung die [deutschen Nutzungsrechte](RIGHTS.de.md) und [Drittanbieterhinweise](THIRD_PARTY.de.md).
