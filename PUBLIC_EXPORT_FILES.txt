@@ -13,6 +13,10 @@ assets/kit/kit-theme.js
 assets/kit/kit.css
 assets/kit/kit.js
 assets/kit/programs.js
+assets/web/app-icon-512.557df471.webp
+assets/web/interface-de-dark.b203872c.webp
+assets/web/interface-en.5a5f28f2.webp
+assets/web/interface-ru.166a47f2.webp
 CHANGELOG.md
 CHANGELOG.de.md
 CHANGELOG.en.md
