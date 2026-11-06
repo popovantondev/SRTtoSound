@@ -1,5 +1,7 @@
 # SRT to Sound 3.5.0 — руководство пользователя и разработчика
 
+Документация на русском. Другие языки: [English](README.en.md) · [Deutsch](README.md).
+
 <!-- public-release:start -->
 Создаёт синхронизированную русскую озвучку из готовых SRT-субтитров в M4A или WAV.
 
@@ -17,8 +19,6 @@
 
 **Контрольные суммы:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
 <!-- public-release:end -->
-
-Документация на русском. Другие языки: [English](README.en.md) · [Deutsch](README.md).
 
 ![Очередь SRT to Sound на русском языке](docs/screenshots/interface-ru.png)
 
