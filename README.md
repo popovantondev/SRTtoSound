@@ -1,6 +1,10 @@
-# SRT to Sound 3.5.0 — Benutzer- und Entwicklerhandbuch
+<div align="center">
+  <img src="presentation-icon.png" width="128" alt="SRT to Sound Symbol">
+</div>
 
-Dokumentation auf Deutsch. Weitere Sprachen: [English](README.en.md) · [Русский](README.ru.md).
+# SRT to Sound
+
+[Русский](README.ru.md) · **Deutsch** · [English](README.en.md)
 
 <!-- public-release:start -->
 Erstellt synchronisierte russische Sprachausgabe aus fertigen SRT-Untertiteln als M4A oder WAV.
@@ -19,6 +23,8 @@ Erstellt synchronisierte russische Sprachausgabe aus fertigen SRT-Untertiteln al
 
 **Prüfsummen:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
 <!-- public-release:end -->
+
+**[Webseite](https://popovantondev.github.io/SRTtoSound/)**
 
 ![SRT-to-Sound-Warteschlange auf Deutsch](docs/screenshots/interface-de-dark.png)
 
