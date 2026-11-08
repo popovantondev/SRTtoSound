@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="presentation-icon.png" width="128" alt="SRT to Sound icon">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/SRTtoSound/index-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/header-en-dark.9999a60e.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/header-en-light.ef853d99.svg" width="880" height="188" alt="SRT to Sound — Creates Russian narration from finished SRT subtitles. macOS 15+ · Apple Silicon, Release 3.5.0"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # SRT to Sound
 
 [Русский](README.ru.md) · [Deutsch](README.md) · **English**
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-download-en-dark.4a2095cd.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-download-en-light.af3ca5e6.svg" width="136" height="36" alt="Download"></picture></a>
+<a href="https://popovantondev.github.io/SRTtoSound/index-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-website-en-dark.ead543c0.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-website-en-light.c0655566.svg" width="120" height="36" alt="Website"></picture></a>
+<a href="https://popovantondev.github.io/SRTtoSound/Guide-en.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-guide-en-dark.2dd56809.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-guide-en-light.e77b30ca.svg" width="141" height="36" alt="User guide"></picture></a>
+<a href="https://github.com/popovantondev/SRTtoSound/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-bug-en-dark.738180f9.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-bug-en-light.4404dfc6.svg" width="196" height="36" alt="Report a problem"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/interface-en.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/preview-en-dark.71d51977.webp"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/preview-en-light.dde39e0b.webp" width="880" height="516" alt="SRT to Sound interface"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/interface-en.png">Full screenshot</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/divider-dark.4bfba62c.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/divider-light.471a8c7b.svg" width="880" height="6" alt="Divider"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Create synchronized Russian narration from finished SRT subtitles as M4A or WAV.
@@ -23,10 +37,6 @@ Create synchronized Russian narration from finished SRT subtitles as M4A or WAV.
 
 **Checksums:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
 <!-- public-release:end -->
-
-**[Website](https://popovantondev.github.io/SRTtoSound/index-en.html)**
-
-![SRT to Sound queue in English](docs/screenshots/interface-en.png)
 
 ## Quick start
 

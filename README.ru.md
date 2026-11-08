@@ -1,10 +1,24 @@
-<div align="center">
-  <img src="presentation-icon.png" width="128" alt="Значок SRT to Sound">
-</div>
+<!-- ppk-readme:head:start -->
+<a href="https://popovantondev.github.io/SRTtoSound/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/header-ru-dark.20cbc597.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/header-ru-light.29c6976e.svg" width="880" height="188" alt="SRT to Sound — Создаёт русскую озвучку из готовых SRT-субтитров. macOS 15+ · Apple Silicon, Выпуск 3.5.0"></picture></a>
+<!-- ppk-readme:head:end -->
 
 # SRT to Sound
 
 **Русский** · [Deutsch](README.md) · [English](README.en.md)
+
+<!-- ppk-readme:body:start -->
+<p>
+<a href="https://github.com/popovantondev/SRTtoSound/releases/tag/v3.5.0"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-download-ru-dark.2644de6c.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-download-ru-light.68750d71.svg" width="120" height="36" alt="Скачать"></picture></a>
+<a href="https://popovantondev.github.io/SRTtoSound/index-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-website-ru-dark.e9f56d87.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-website-ru-light.69dea5d1.svg" width="92" height="36" alt="Сайт"></picture></a>
+<a href="https://popovantondev.github.io/SRTtoSound/Guide-ru.html"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-guide-ru-dark.eccf87e7.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-guide-ru-light.4247c64e.svg" width="161" height="36" alt="Руководство"></picture></a>
+<a href="https://github.com/popovantondev/SRTtoSound/issues/new/choose"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-bug-ru-dark.a0f9e58f.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/btn-bug-ru-light.feb1ed25.svg" width="234" height="36" alt="Сообщить об ошибке"></picture></a>
+</p>
+
+<p><a href="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/interface-ru.png"><picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/preview-ru-dark.26bb84fe.webp"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/preview-ru-light.6a308467.webp" width="880" height="516" alt="Интерфейс программы SRT to Sound"></picture></a><br>
+<sub><a href="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/screenshots/interface-ru.png">Снимок целиком</a></sub></p>
+
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/divider-dark.4bfba62c.svg"><img src="https://raw.githubusercontent.com/popovantondev/SRTtoSound/main/docs/readme/divider-light.471a8c7b.svg" width="880" height="6" alt="Разделитель"></picture>
+<!-- ppk-readme:body:end -->
 
 <!-- public-release:start -->
 Создаёт синхронизированную русскую озвучку из готовых SRT-субтитров в M4A или WAV.
@@ -23,10 +37,6 @@
 
 **Контрольные суммы:** [`SHA256SUMS`](https://github.com/popovantondev/SRTtoSound/releases/download/v3.5.0/SHA256SUMS)
 <!-- public-release:end -->
-
-**[Сайт](https://popovantondev.github.io/SRTtoSound/index-ru.html)**
-
-![Очередь SRT to Sound на русском языке](docs/screenshots/interface-ru.png)
 
 ## Быстрый запуск
 
